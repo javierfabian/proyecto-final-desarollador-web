@@ -182,6 +182,14 @@ item-grid:hover {
     margin-top: 5px;
 
 }
+.titulo-final {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    color: aliceblue;
+}
 
 a {
     text-decoration: none;
