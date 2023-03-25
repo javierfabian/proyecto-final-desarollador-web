@@ -72,10 +72,41 @@ a {
 
 }
  
+img {
+    width: 250px;
+    border-radius: 10px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
 
+}
+
+/*caja de sinopsis*/
+.container-synopsis {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.synopsis-tittle {
+    font-size: 50px;
+    text-align: center;
+    margin: 10px;
+
+}
+
+.synopsis-text {
+    font-size: 40px;
+    margin: 10px;
+    text-align: justify;
 
 
 }
+.container-sdata {
+    font-size
+}
+
 
 
 
