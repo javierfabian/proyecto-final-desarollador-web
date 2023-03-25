@@ -76,14 +76,14 @@ img {
     width: 250px;
     border-radius: 10px;
     overflow-clip-margin: content-box;
-    overflow: clip;
+    
 
 }
 
 /*caja de sinopsis*/
 .container-synopsis {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     border-radius: 10px;
     padding: 10px;
     margin-left: 5px;
@@ -104,10 +104,126 @@ img {
 
 }
 .container-sdata {
-    font-size
+    margin: 10px;
+
+}
+.synopsis-data {
+    font-size: 30px;
+
+}
+.usa-flag {
+    width: 25px;
+    border: 2px solid #2C3650;
+}
+.tittle-characters {
+    background-color: rgba(80, 80, 80, 0.665);
+    border: 2px solid #2C3650;
+    border-radius: 10px;
+    font-size: 40px;
+    text-align: center;
+    margin: 10px;
 }
 
+/*personajes*/
 
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    
+}
+.item-grid {
+    width: 280px;
+    background-color: rgba(90, 95, 95, 0.400);
+    color: rgb(540, 260, 140);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+item-grid:hover {
+    background-color: rgba(90, 95, 95, 0.400);
+    transition: ease .3s;
+}
 
+.item-grid img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+/* footer*/
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+
+.text-container-footer {
+    font-size: 30px;
+    color: #fffd8f;
+    margin: 5px;
+
+}
+.logosilicon {
+    width: 40px;
+    border: 2px solid #2C3650;
+}
+
+.container-personal-data {
+    margin: 30px;
+    color: #fffd8f;
+    gap: 5px;
+
+}
+.ppdata {
+    margin-top: 5px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #fffd8f;
+}
+
+@media(max-width:440px){
+    body {
+        display: inline-block;
+    }
+    .container-header {
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+    .container-nav-list {
+        display: block;
+    }
+    ul {
+        display: block;
+        margin: 20px;
+    }
+    li {
+        margin-top: 5px;
+        border-radius: 0px;
+        background-color: rgba(90, 95, 95, 0.400);
+    }
+
+    .container-main {
+        display: block;
+        text-align: center;
+    }
+    .container-synopsis {
+        text-align: justify;
+    }
+    .synopsis-text {
+        text-align: center;
+    }
+    .container-footer {
+        display: block;
+        text-align: center;
+    }
+    }
 
 
